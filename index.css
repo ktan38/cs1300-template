@@ -1,1 +1,78 @@
 /* Put your style information here! */
+.text {
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    max-width: 1000px;
+    margin-left: 60px;
+}
+
+.sketch { 
+
+    max-width: 35%;
+    max-height: 35%;
+    margin-left: 60px;
+}
+
+.list {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    max-width: 800px;
+    margin-left: 80px;
+
+}
+
+.bullet { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    position:relative;
+  }
+  
+.column {
+max-width: 40%;
+max-height: 40%;
+flex: 33.33%;
+padding: 5px;
+}
+
+.personas {
+    margin-bottom: 100px;
+}
+
+/* #brian { 
+    margin-top: 120px;
+}
+
+#vicky {
+    margin-top: 230px;
+} */
+
+
+.descriptions {
+    margin-top: 300px;
+}
+
+.storyboard { 
+    margin-left: 50px;
+    max-width: 55%;
+    max-height: 55%;
+}
+
+h3 {
+    margin-left: 30px;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: steelblue;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
